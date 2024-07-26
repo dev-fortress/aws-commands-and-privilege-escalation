@@ -5,6 +5,11 @@ Este repositorio contiene documentación detallada sobre comandos de AWS, técni
 
 ## Estructura del Repositorio
 **1. Tools**: Herramientas y Comandos para gestionar recursos en AWS.
+**2. Basic**: Comandos básicos para la gestión de AWS.
+**3. Enumeration**: Comandos para realizar enumeración en ambientes AWS.
+**4. Privilege_Escalation-Techniques**: Técnicas de elevación de privilegios en ambientes de AWS.
+**5. Exfiltration**: Métodos y técnicas para la extracción de información en ambientes AWS.
+**6. Cleaning-the-House**: Comandos para eliminar lo realizado en AWS.
 
 ## Cómo Usar Este Repositorio
 Cada carpeta contiene archivos en formato Markdown (`.md`) que documentan los comandos y técnicas. Puedes navegar por las carpetas y leer los archivos para encontrar la información que necesitas.
