@@ -7,10 +7,10 @@ Este archivo contiene una lista de herramientas y comandos utilizados para gesti
 
 ### AWS CLI
 La interfaz de línea de comandos de AWS (AWS CLI) es una herramienta unificada para gestionar sus servicios de AWS. Con una sola herramienta para descargar e instalar, puede controlar varios servicios de AWS desde la línea de comandos y automatizarlos a través de scripts.
-# En Linux
+### En Linux
 sudo apt install awscli
 
-# En MacOS
+### En MacOS
 brew install awscli
 
 ### enumarate-iam
