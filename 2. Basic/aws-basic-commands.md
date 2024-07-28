@@ -5,11 +5,6 @@ Este archivo contiene una lista de comandos básicos para interactuar con AWS ut
 
 ## Comandos Básicos
 
-### Configuración Inicial
-
-**Configurar AWS CLI**
-aws configure
-
 ## Configurar un nuevo perfil para usar con awscli.
 aws configure --profile perfil-nuevo
 
