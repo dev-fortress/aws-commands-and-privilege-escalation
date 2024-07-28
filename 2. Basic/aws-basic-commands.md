@@ -8,7 +8,6 @@ Este archivo contiene una lista de comandos básicos para interactuar con AWS ut
 ### Configuración Inicial
 
 **Configurar AWS CLI**
-```bash
 aws configure
 
 ## Configurar un nuevo perfil para usar con awscli.

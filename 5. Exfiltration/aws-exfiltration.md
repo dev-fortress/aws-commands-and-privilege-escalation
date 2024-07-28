@@ -24,6 +24,7 @@ ec2_client.modify_snapshot_attribute(
     }
 )"
 
+```
 		
 # Exfiltracion de datos utilizando un Snapshots de una AMI
 ## Permisos Requeridos: 
@@ -50,4 +51,4 @@ ec2_client.modify_image_attribute(
     }
 )"
 
-
+```
