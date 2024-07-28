@@ -20,8 +20,8 @@ aws iam create-access-key --user-name privesc6-UpdateLoginProfile-user
 aws s3 ls
 
 ## Listar un bucket especifico.
-1. aws s3 ls s3://nombre-del-bucket/
-2. aws s3 ls s3://nombre-del-bucket/ --recursive
+aws s3 ls s3://nombre-del-bucket/  
+aws s3 ls s3://nombre-del-bucket/ --recursive  
 
 ## Descarga de Datos.
 aws s3 cp s3://nombre-del-bucket/Importante/README.txt ./
@@ -30,9 +30,9 @@ aws s3 cp s3://nombre-del-bucket/Importante/README.txt ./
 aws s3 cp .\ejemplo.txt s3://nombre-del-bucket/
 	
 ## Consulta de metadatos.
-**curl http://169.254.169.254/latest/meta-data/**
-**curl http://169.254.169.254/latest/meta-data/iam/security-credentials/**
-**curl http://169.254.169.254/latest/meta-data/iam/security-credentials/perfil-usuario**
+curl http://169.254.169.254/latest/meta-data/  
+curl http://169.254.169.254/latest/meta-data/iam/security-credentials/  
+curl http://169.254.169.254/latest/meta-data/iam/security-credentials/perfil-usuario  
 	
 # AWS Security Token.
 
