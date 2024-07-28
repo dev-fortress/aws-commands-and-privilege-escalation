@@ -7,7 +7,7 @@ Este repositorio contiene documentación detallada sobre comandos de AWS, técni
 - **1. Tools**: Herramientas y Comandos para gestionar recursos en AWS.
 - **2. Basic**: Comandos básicos para la gestión de AWS.
 - **3. Enumeration**: Comandos para realizar enumeración en ambientes AWS.
-- **4. Privilege_Escalation-Techniques**: Técnicas de elevación de privilegios en ambientes de AWS.
+- **4. Privilege-Escalation-Techniques**: Técnicas de elevación de privilegios en ambientes de AWS.
 - **5. Exfiltration**: Métodos y técnicas para la extracción de información en ambientes AWS.
 - **6. Cleaning-the-House**: Comandos para eliminar lo realizado en AWS.
 
@@ -24,5 +24,3 @@ Si deseas contribuir a este repositorio, por favor sigue estos pasos:
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).
-
-## Recursos Adicionales
