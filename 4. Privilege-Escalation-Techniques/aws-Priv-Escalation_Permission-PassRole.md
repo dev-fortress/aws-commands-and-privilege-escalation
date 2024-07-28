@@ -206,8 +206,8 @@ cat datos-tabla.json
 
 ```json
 {
-  ""ID"": {
-    ""S"": ""cpad-001""
+  "ID": {
+    "S": "cpad-001"
   }
 }
 
