@@ -39,7 +39,7 @@ aws configure --profile privesc20
 aws sts get-caller-identity --profile privesc20  
 Creamos el archivo IAMCreateUserPlantilla.json  
 
-````json
+```json
 {
   "Resources": {
     "AdminUser": {
