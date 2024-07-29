@@ -2,32 +2,44 @@
 ## Enumeración de Usuarios
 ```bash
 aws sts get-caller-identity  
+
 aws iam list-users  
+
 aws iam list-groups-for-user --user-name usuario  
+
 aws iam list-virtual-mfa-devices  
+
 aws iam list-attached-user-policies --user-name usuario  
+
 aws iam list-user-policies --user-name usuario  
 ```
 		
 ## Listado de Grupos IAM
 ```bash
 aws iam list-groups  
+
 aws iam list-attached-group-policies --group-name Developers  
+
 aws iam list-group-policies --group-name Developers  
 ```
 		
 ## Listado de Roles IAM	aws iam list-roles
 ```bash
 aws iam list-attached-role-policies --role-name AWSServiceRoleForAmazonGuardDuty  
+
 aws iam list-role-policies --role-name AWSServiceRoleForAmazonGuardDuty  
+
 aws iam get-role --role-name AWSServiceRoleForAmazonGuardDuty  
 ```
 		
 ## Listado de Todas las Políticas IAM	
 ```bash
 aws iam list-policies --profile perfile-comprometido  
+
 aws iam get-policy --policy-arn arn:aws:iam::583318501385:policy/Buckets-Test --profile perfile-comprometido  
+
 aws iam list-policy-versions --policy-arn arn:aws:iam::583318501385:policy/Buckets-Test --profile perfile-comprometido  
+
 aws iam get-policy-version --policy-arn arn:aws:iam::583318501385:policy/Buckets-Test --version-id v1 --profile perfile-comprometido  
 ```
 		

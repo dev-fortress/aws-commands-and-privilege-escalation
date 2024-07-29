@@ -23,6 +23,7 @@ aws s3 ls
 ## Listar un bucket especifico.
 ```bash
 aws s3 ls s3://nombre-del-bucket/  
+
 aws s3 ls s3://nombre-del-bucket/ --recursive  
 ```
 
@@ -39,7 +40,9 @@ aws s3 cp .\ejemplo.txt s3://nombre-del-bucket/
 ## Consulta de metadatos.
 ```bash
 curl http://169.254.169.254/latest/meta-data/  
+
 curl http://169.254.169.254/latest/meta-data/iam/security-credentials/  
+
 curl http://169.254.169.254/latest/meta-data/iam/security-credentials/perfil-usuario  
 ```
 	
