@@ -33,4 +33,6 @@ Si deseas contribuir a este repositorio, por favor sigue estos pasos:
 - [Libro Hacking en AWS de Spartan-Cybersecurity](https://books.spartan-cybersec.com/cpna)
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).  
+Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE). 
+
+**IMPORTANTE: ** La mayoria de comandos y procedimientos son extraidos del libro: Hacking en AWS de Spartan Cybersecurity
