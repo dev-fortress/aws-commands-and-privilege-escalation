@@ -4,12 +4,12 @@
 Este repositorio contiene documentación detallada sobre comandos de AWS, técnicas de enumeración y pruebas de escalamiento de privilegios. La información está organizada de manera que sea fácil de encontrar según lo que necesites hacer.  
 
 ## Estructura del Repositorio
-**1. Tools**: Herramientas y Comandos para gestionar recursos en AWS.  
-**2. Basic**: Comandos básicos para la gestión de AWS.  
-**3. Enumeration**: Comandos para realizar enumeración en ambientes AWS.  
-**4. Privilege-Escalation-Techniques**: Técnicas de elevación de privilegios en ambientes de AWS.  
-**5. Exfiltration**: Métodos y técnicas para la extracción de información en ambientes AWS.  
-**6. Cleaning-the-House**: Comandos para eliminar lo realizado en AWS.  
+**1. Tools**: Sección dedicada a las herramientas esenciales para realizar enumeración y descubrir posibles vectores de ataque en entornos AWS. Aquí encontrarás descripciones y ejemplos de uso de diversas herramientas que facilitan la identificación de recursos y configuraciones potencialmente vulnerables.  
+**2. Basic**: Reúne comandos básicos para la gestión de recursos en AWS. Esta sección está diseñada para ayudar a los usuarios a realizar operaciones comunes como la configuración inicial, la gestión de instancias, y la administración de almacenamiento en la nube.  
+**3. Enumeration**: Contiene comandos y técnicas específicos para llevar a cabo la enumeración en entornos AWS. La enumeración es un paso crítico en el pentesting, donde se recopila información sobre los recursos y configuraciones existentes para identificar posibles puntos de entrada y vulnerabilidades.  
+**4. Privilege-Escalation-Techniques**: Documenta diversas técnicas de escalamiento de privilegios en entornos AWS. Esta sección es crucial para entender cómo un atacante podría obtener mayores permisos dentro de la infraestructura, y cómo prevenir tales ataques mediante buenas prácticas de seguridad.  
+**5. Exfiltration**: Proporciona métodos y técnicas para la extracción de información de entornos AWS. Aquí se detallan procedimientos utilizados por los atacantes para extraer datos sensibles y cómo detectar y mitigar tales actividades.  
+**6. Cleaning-the-House**: Incluye comandos y guías para limpiar y eliminar cambios realizados en AWS durante pruebas de seguridad o configuraciones erróneas. Esta sección es vital para asegurar que los entornos vuelvan a un estado seguro y limpio después de cualquier actividad de pentesting o implementación.  
 
 ## Cómo Usar Este Repositorio
 Cada carpeta contiene archivos en formato Markdown (`.md`) que documentan los comandos y técnicas. Puedes navegar por las carpetas y leer los archivos para encontrar la información que necesitas.
