@@ -30,7 +30,7 @@ Si deseas contribuir a este repositorio, por favor sigue estos pasos:
 
 ## Recursos Adicionales
 - [Documentación oficial de AWS](https://aws.amazon.com/documentation/)
-- [Libro Hacking en AWS de Spartan-Cybersecurity] (https://books.spartan-cybersec.com/cpna)
+- [Libro Hacking en AWS de Spartan-Cybersecurity](https://books.spartan-cybersec.com/cpna)
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).  
