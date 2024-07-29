@@ -12,7 +12,7 @@ Crear el archivo admin_policy.json con el contenido
   "Statement": [
     {
       "Sid": "PermitirTodo",
-      "Effect": ""Allow",
+      "Effect": "Allow",
       "Action": "*",
       "Resource": "*"
     }
