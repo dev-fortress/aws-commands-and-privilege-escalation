@@ -35,4 +35,4 @@ Si deseas contribuir a este repositorio, por favor sigue estos pasos:
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE). 
 
-**IMPORTANTE: ** La mayoria de comandos y procedimientos son extraidos del libro: Hacking en AWS de Spartan Cybersecurity
+**IMPORTANTE:** La mayoria de comandos y procedimientos son extraidos del libro: Hacking en AWS de Spartan Cybersecurity
