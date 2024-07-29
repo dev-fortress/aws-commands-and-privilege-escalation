@@ -28,5 +28,9 @@ Si deseas contribuir a este repositorio, por favor sigue estos pasos:
 4. Empuja tu rama (`git push origin feature/tu-feature`).  
 5. Abre un Pull Request.  
 
+## Recursos Adicionales
+- [Documentación oficial de AWS](https://aws.amazon.com/documentation/)
+- [Libro Hacking en AWS de Spartan-Cybersecurity] (https://books.spartan-cybersec.com/cpna)
+
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).  
