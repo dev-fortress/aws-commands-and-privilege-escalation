@@ -4,7 +4,8 @@
 Este repositorio contiene documentación detallada sobre comandos de AWS, técnicas de enumeración y pruebas de escalamiento de privilegios. La información está organizada de manera que sea fácil de encontrar según lo que necesites hacer.  
 
 ## Estructura del Repositorio
-**1. Tools**: Sección dedicada a las herramientas esenciales para realizar enumeración y descubrir posibles vectores de ataque en entornos AWS. Aquí encontrarás descripciones y ejemplos de uso de diversas herramientas que facilitan la identificación de recursos y configuraciones potencialmente vulnerables.  
+**1. Tools**:  
+  Sección dedicada a las herramientas esenciales para realizar enumeración y descubrir posibles vectores de ataque en entornos AWS. Aquí encontrarás descripciones y ejemplos de uso de diversas herramientas que facilitan la identificación de recursos y configuraciones potencialmente vulnerables.  
 **2. Basic**: Reúne comandos básicos para la gestión de recursos en AWS. Esta sección está diseñada para ayudar a los usuarios a realizar operaciones comunes como la configuración inicial, la gestión de instancias, y la administración de almacenamiento en la nube.  
 **3. Enumeration**: Contiene comandos y técnicas específicos para llevar a cabo la enumeración en entornos AWS. La enumeración es un paso crítico en el pentesting, donde se recopila información sobre los recursos y configuraciones existentes para identificar posibles puntos de entrada y vulnerabilidades.  
 **4. Privilege-Escalation-Techniques**: Documenta diversas técnicas de escalamiento de privilegios en entornos AWS. Esta sección es crucial para entender cómo un atacante podría obtener mayores permisos dentro de la infraestructura, y cómo prevenir tales ataques mediante buenas prácticas de seguridad.  
