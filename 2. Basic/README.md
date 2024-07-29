@@ -1,3 +1,2 @@
-# Comandos Básicos de AWS
-## Descripción
-Este archivo contiene una lista de comandos básicos para interactuar con AWS utilizando AWSCLI. Estos comandos cubren operaciones comunes como la gestión de instancias EC2, buckets de S3, usuarios de IAM, y más.
+# Descripción  
+Reúne comandos básicos para la gestión de recursos en AWS. Esta sección está diseñada para ayudar a los usuarios a realizar operaciones comunes como la configuración inicial, la gestión de instancias, y la administración de almacenamiento en la nube.
