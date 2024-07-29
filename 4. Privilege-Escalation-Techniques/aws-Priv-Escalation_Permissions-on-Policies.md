@@ -8,13 +8,13 @@ Crear el archivo admin_policy.json con el contenido
 
 ```json
 {
-  ""Version"": ""2012-10-17"",
-  ""Statement"": [
+  "Version": "2012-10-17",
+  "Statement": [
     {
-      ""Sid"": ""PermitirTodo"",
-      ""Effect"": ""Allow"",
-      ""Action"": ""*"",
-      ""Resource"": ""*""
+      "Sid": "PermitirTodo",
+      "Effect": ""Allow",
+      "Action": "*",
+      "Resource": "*"
     }
   ]
 }
