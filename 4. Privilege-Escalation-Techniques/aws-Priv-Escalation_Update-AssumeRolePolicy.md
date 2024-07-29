@@ -7,15 +7,15 @@ aws sts get-caller-identity --profile privesc14
 Crear un archivo assume-role-policy.json  
 ```json
 {
-  ""Version"": ""2012-10-17"",
-  ""Statement"": [
+  "Version": "2012-10-17",
+  "Statement": [
     {
-      ""Effect"": ""Allow"",
-      ""Principal"": {
-        ""AWS"": ""arn:aws:sts::651927172911:assumed-role/privesc14-UpdatingAssumeRolePolicy-role/privesc14""
+      "Effect"": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:sts::651927172911:assumed-role/privesc14-UpdatingAssumeRolePolicy-role/privesc14"
       },
-      ""Action"": ""sts:AssumeRole"",
-      ""Condition"": {}
+      "Action"": "sts:AssumeRole",
+      "Condition": {}
     }
   ]
 }
