@@ -19,35 +19,35 @@ brew install awscli
 ```
 
 ### enumerate-iam  
-Descripción: enumerate-iam es una herramienta que facilita la enumeración de políticas de IAM y permisos asociados a usuarios, grupos y roles en AWS. Proporciona una visión detallada de los permisos efectivos que tiene cada entidad de IAM.  
+**Descripción:** enumerate-iam es una herramienta que facilita la enumeración de políticas de IAM y permisos asociados a usuarios, grupos y roles en AWS. Proporciona una visión detallada de los permisos efectivos que tiene cada entidad de IAM.  
 https://github.com/andresriancho/enumerate-iam.git  
 
 ### cliam  
-Descripción: cliam es una herramienta que ayuda a realizar análisis de políticas de IAM en AWS. Permite verificar y visualizar permisos, ayudando a identificar configuraciones incorrectas y posibles escalaciones de privilegios.  
+**Descripción:** cliam es una herramienta que ayuda a realizar análisis de políticas de IAM en AWS. Permite verificar y visualizar permisos, ayudando a identificar configuraciones incorrectas y posibles escalaciones de privilegios.  
 https://github.com/securisec/cliam  
 
 ### IAMFinder  
-Descripción: IAMFinder es una herramienta diseñada para encontrar y reportar posibles problemas de seguridad en las configuraciones de IAM. Ayuda a identificar cuentas y roles con permisos excesivos que podrían ser explotados.  
+**Descripción:** IAMFinder es una herramienta diseñada para encontrar y reportar posibles problemas de seguridad en las configuraciones de IAM. Ayuda a identificar cuentas y roles con permisos excesivos que podrían ser explotados.  
 https://github.com/prisma-cloud/IAMFinder  
 
 ### IAMPrivesc  
-Descripción: IAMPrivesc es una herramienta que facilita la identificación de posibles vectores de escalación de privilegios en las políticas de IAM de AWS. Ayuda a los evaluadores de seguridad a descubrir rutas de privilegios potencialmente explotables.  
+**Descripción:** IAMPrivesc es una herramienta que facilita la identificación de posibles vectores de escalación de privilegios en las políticas de IAM de AWS. Ayuda a los evaluadores de seguridad a descubrir rutas de privilegios potencialmente explotables.  
 https://github.com/kriko69/IAMprivesc  
 
 ### prowler  
-Descripción: prowler es una herramienta de auditoría y evaluación de seguridad para AWS. Realiza verificaciones basadas en las mejores prácticas de seguridad de AWS y en los controles de seguridad del CIS (Center for Internet Security).  
+**Descripción:** prowler es una herramienta de auditoría y evaluación de seguridad para AWS. Realiza verificaciones basadas en las mejores prácticas de seguridad de AWS y en los controles de seguridad del CIS (Center for Internet Security).  
 https://github.com/prowler-cloud/prowler  
 
 ### Cloudsplaining  
-Descripción: Cloudsplaining es una herramienta que analiza políticas de IAM en AWS para identificar riesgos de seguridad. Genera informes que destacan permisos excesivos y recomendaciones para mitigar estos riesgos.  
+**Descripción:** Cloudsplaining es una herramienta que analiza políticas de IAM en AWS para identificar riesgos de seguridad. Genera informes que destacan permisos excesivos y recomendaciones para mitigar estos riesgos.  
 https://github.com/salesforce/cloudsplaining  
 
 ### CloudMapper  
-Descripción: CloudMapper es una herramienta de visualización y auditoría de seguridad para AWS. Permite mapear la arquitectura de una cuenta de AWS y generar gráficos interactivos que ayudan a entender mejor la infraestructura y sus posibles vulnerabilidades.  
+**Descripción:** CloudMapper es una herramienta de visualización y auditoría de seguridad para AWS. Permite mapear la arquitectura de una cuenta de AWS y generar gráficos interactivos que ayudan a entender mejor la infraestructura y sus posibles vulnerabilidades.  
 https://github.com/duo-labs/cloudmapper  
 
 ### PACU  
-Descripción: PACU es una herramienta de evaluación de seguridad para AWS desarrollada por Rhino Security Labs. Es una suite completa que permite realizar pruebas de penetración en entornos AWS, automatizando tareas comunes y permitiendo la explotación de vulnerabilidades conocidas.  
+**Descripción:** PACU es una herramienta de evaluación de seguridad para AWS desarrollada por Rhino Security Labs. Es una suite completa que permite realizar pruebas de penetración en entornos AWS, automatizando tareas comunes y permitiendo la explotación de vulnerabilidades conocidas.  
 https://github.com/RhinoSecurityLabs/pacu  
 
 ### Gitleaks
