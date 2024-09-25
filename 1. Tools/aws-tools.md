@@ -18,6 +18,14 @@ sudo apt install awscli
 brew install awscli
 ```
 
+### S3scanner  
+**Descripción:** S3Scanner es una herramienta de seguridad diseñada para buscar y detectar buckets de Amazon S3 mal configurados. Permite identificar buckets públicos o accesibles sin autorización adecuada, ayudando a prevenir la exposición de datos sensibles en entornos de almacenamiento en la nube.  
+https://github.com/sa7mon/S3Scanner.git  
+
+### ScoutSuite  
+**Descripción:** ScoutSuite es una herramienta de auditoría de seguridad multi-nube que permite revisar configuraciones y políticas de seguridad en entornos de AWS, Azure, Google Cloud y otros proveedores. Proporciona reportes detallados sobre posibles vulnerabilidades y malas configuraciones para ayudar a mejorar la postura de seguridad en la nube.  
+https://github.com/nccgroup/ScoutSuite.git  
+
 ### enumerate-iam  
 **Descripción:** enumerate-iam es una herramienta que facilita la enumeración de políticas de IAM y permisos asociados a usuarios, grupos y roles en AWS. Proporciona una visión detallada de los permisos efectivos que tiene cada entidad de IAM.  
 https://github.com/andresriancho/enumerate-iam.git  

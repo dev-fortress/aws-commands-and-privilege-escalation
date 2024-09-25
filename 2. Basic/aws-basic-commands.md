@@ -27,16 +27,26 @@ aws s3 ls s3://nombre-del-bucket/
 aws s3 ls s3://nombre-del-bucket/ --recursive  
 ```
 
-## Descarga de Datos.
+## Descarga de Datos de un Bucket.
 ```bash
 aws s3 cp s3://nombre-del-bucket/Importante/README.txt ./
 ```
 
-## Subida de Archivos.
+## Subida de Archivos a un Bucket.
 ```bash
 aws s3 cp .\ejemplo.txt s3://nombre-del-bucket/
 ```
-	
+
+## Identificar la politica de un bucket.
+```bash
+aws s3api get-bucket-policy --bucket Nombre-del-Bucket --profile Perfil-de-Prueba
+```
+
+## Confirmar si el bucket es publico.
+```bash
+aws s3api get-public-access-block --bucket Nombre-del-Bucket --profile Perfil-de-Prueba
+```
+
 ## Consulta de metadatos.
 ```bash
 curl http://169.254.169.254/latest/meta-data/  
@@ -45,7 +55,18 @@ curl http://169.254.169.254/latest/meta-data/iam/security-credentials/
 
 curl http://169.254.169.254/latest/meta-data/iam/security-credentials/perfil-usuario  
 ```
-	
+
+## Listar las instancias de Lightsail  
+```bash
+aws lightsail get-instances --profile cpna-9151 --region us-east-1
+```
+
+## Crea una regla firewall de entrada en Lightsail  
+```bash
+aws lightsail put-instance-public-ports --instance-name <nombre-de-la-instancia> --port-infos fromPort=22,toPort=22,protocol=TCP,cidrs=<tu-ip>/32 --profile <tu-perfil> --region us-east-1
+```
+
+
 # AWS Security Token.
 
 ## Solicitud de un Token desde una instancia ec2:
